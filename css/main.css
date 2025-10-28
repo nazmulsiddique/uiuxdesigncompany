@@ -425,7 +425,7 @@
 }
 
 .mxd-promo__bg {
-  background-image: url(https://dummyimage.com/1400x900/838383/5d5d5d);
+  background-image: url(../img/backgrounds/1440x900_cta-01.webp);
 }
 
 .preview-image-1 {
@@ -457,15 +457,15 @@
 }
 
 .blog-preview-image-1 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: url(../img/blog/article/1000x1250_prv-01.webp);
 }
 
 .blog-preview-image-2 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: url(../img/blog/article/1000x1250_prv-02.webp);
 }
 
 .blog-preview-image-3 {
-  background-image: url(https://dummyimage.com/1000x1250/5d5d5d/838383);
+  background-image: url(../img/blog/article/1000x1250_prv-03.webp);
 }
 
 .headline-img-01::before {
