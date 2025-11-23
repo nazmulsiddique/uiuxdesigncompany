@@ -393,7 +393,7 @@
 }
 
 .divider-image-3 {
-  background-image: url(https://dummyimage.com/1920x1200/5d5d5d/838383);
+  background-image: url(../img/illustrations/1920x1080_divider-03.webp);
 }
 
 .divider-image-4 {
@@ -429,23 +429,23 @@
 }
 
 .preview-image-1 {
-  background-image: url(../img/works/preview/1400x1400_prv-01.webp);
+  background-image: url(../img/works/preview/1.jpg);
 }
 
 .preview-image-2 {
-  background-image: url(../img/works/preview/1400x1400_prv-02.webp);
+  background-image: url(../img/works/preview/2.jpg);
 }
 
 .preview-image-3 {
-  background-image: url(../img/works/preview/1400x1400_prv-03.webp);
+  background-image: url(../img/works/preview/3.png);
 }
 
 .preview-image-4 {
-  background-image: url(../img/works/preview/1400x1400_prv-04.webp);
+  background-image: url(../img/works/preview/4.jpg);
 }
 
 .preview-image-5 {
-  background-image: url(../img/works/preview/1400x1400_prv-05.webp);
+  background-image: url(../img/works/preview/5.png);
 }
 
 .preview-image-6 {
@@ -505,11 +505,14 @@
 }
 
 .prj-details-img-01 {
-  background-image: url(https://dummyimage.com/1920x1200/414141/636363);
+  /* background-image: url(https://dummyimage.com/1920x1200/414141/636363); */
+
+  background-image: url(../img/works/preview/1920x1200.jpg);
 }
 
 .prj-details-img-02 {
-  background-image: url(https://dummyimage.com/1920x1200/414141/636363);
+  /* background-image: url(https://dummyimage.com/1920x1200/414141/636363); */
+  background-image: url(../img/works/preview/1920x1200-1.jpg);
 }
 
 /* ------------------------------------------------*/
