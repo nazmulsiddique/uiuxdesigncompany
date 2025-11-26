@@ -1,54 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-  <head>
-    <meta charset="UTF-8">
-
-    <!-- Page Title -->
-    <title>UI UX Design Company</title>
-
-    <!-- Meta Tags -->
-    <meta name="description" content="Behind every successful brand lies creativity, precision, and a seamless user experience. UI UX Design Company is built on that very belief—to transform your ideas into designs that are not just visually appealing, but emotionally engaging. ">
-    <meta name="keywords" content="mix_design, resume, portfolio, personal page, cv, template, one page, responsive, html5, css3, creative, clean">
-    <meta name="author" content="mix_design">
-
-    <!-- Viewport Meta-->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- Template Favicon & Icons Start -->
-    <link rel="icon" href="img/favicon/favicon.ico" sizes="any">
-    <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="img/favicon/manifest.webmanifest">
-    <!-- Template Favicon & Icons End -->
-
-    <!-- Facebook Metadata Start -->
-    <meta property="og:image:height" content="1200">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:title" content="UI UX Design Company">
-    <meta property="og:description" content="Elevate your digital presence with Rayo - dynamic and stylish HTML template designed for creative agencies and personal brands. With modern layouts, smooth interactions and a polished aesthetic, Rayo template helps showcase projects, services and expertise with clarity and impact.">
-    <meta property="og:url" content="https://mixdesign.dev/themeforest/rayo">
-    <meta property="og:image" content="https://mixdesign.dev/themeforest/rayo/img/og-image.jpg">
-    <!-- Facebook Metadata End -->
-
-    <!-- Template Styles Start -->
-    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css">
-    <link rel="stylesheet" type="text/css" href="css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!-- Template Styles End -->
-
-    <!-- Custom Browser Color Start -->
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FAF7F6">
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#161616">
-    <meta name="msapplication-navbutton-color" content="#161616">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Custom Browser Color End -->
-    
-  </head>
-
-  <body>
+<?php get_header(); ?>
 
     <!-- Loader Start -->
     <div id="loader" class="loader">
@@ -224,9 +174,9 @@
                     designer and illustrator based in Odesa, Ukraine</p>
                   <div class="menu-promo__video">
                     <video class="menu-video" id="inner-video" preload="auto" autoplay="autoplay" loop="loop" muted="muted" poster="https://dummyimage.com/540x310/5d5d5d/737373">
-                      <source type="video/mp4" src="video/540x310_video-01.mp4">
-                      <source type="video/webm" src="video/540x310_video.webm">
-                      <source type="video/ogv" src="video/540x310_video.ogv">
+                      <source type="video/mp4" src="<?php echo get_template_directory_uri(); ?>/video/540x310_video-01.mp4">
+                      <source type="video/webm" src="<?php echo get_template_directory_uri(); ?>/video/540x310_video.webm">
+                      <source type="video/ogv" src="<?php echo get_template_directory_uri(); ?>/video/540x310_video.ogv">
                     </video>
                   </div>
                 </div>
@@ -247,7 +197,7 @@
       <!-- header logo -->
       <div class="mxd-header__logo loading__fade">
         <a href="index-main.html" class="mxd-logo">
-          <img src="img/main-logo.png" alt="UI UX Design" style="width: 250px;">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/main-logo.png" alt="UI UX Design">
           <!-- logo icon -->
           <!-- <svg class="mxd-logo__image" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve"> -->
             <style type="text/css">
@@ -311,13 +261,13 @@
                 <!-- title images -->
                 <div class="mxd-hero-01__images mxd-floating-img">
                   <div class="hero-01-image image-01 mxd-floating-img__item loading__fade">
-                    <img class="mxd-pulse" src="img/demo/01_hero-img.webp" alt="Hero Image">
+                    <img class="mxd-pulse" src="<?php echo get_template_directory_uri(); ?>/img/demo/01_hero-img.webp" alt="Hero Image">
                   </div>
                   <div class="hero-01-image image-02 mxd-floating-img__item loading__fade">
-                    <img class="mxd-move" src="img/demo/02_hero-img.webp" alt="Hero Image">
+                    <img class="mxd-move" src="<?php echo get_template_directory_uri(); ?>/img/demo/02_hero-img.webp" alt="Hero Image">
                   </div>
                   <div class="hero-01-image image-03 mxd-floating-img__item loading__fade">
-                    <img class="mxd-rotate" src="img/demo/03_hero-img.webp" alt="Hero Image">
+                    <img class="mxd-rotate" src="<?php echo get_template_directory_uri(); ?>/img/demo/03_hero-img.webp" alt="Hero Image">
                   </div>
                 </div>
                 <!-- title marquee -->
@@ -455,7 +405,7 @@
                       </g>
                     </svg>
                     <!-- image -->
-                    <img class="btn-rotating__image" src="img/icons/300x300_obj-btn-01.webp" alt="Object">
+                    <img class="btn-rotating__image" src="<?php echo get_template_directory_uri(); ?>/img/icons/300x300_obj-btn-01.webp" alt="Object">
                   </a>
                 </div>
                 <div class="mxd-hero-01__data-descr loading__fade">
@@ -521,7 +471,7 @@
               </div>
               <div class="mxd-hero-01__video-wrap loading__item">
                 <video class="mxd-hero-01__video" preload="auto" autoplay="autoplay" loop="loop" muted="muted" poster="https://dummyimage.com/540x310/5d5d5d/737373">
-                  <source type="video/mp4" src="video/540x310_video-01.mp4">
+                  <source type="video/mp4" src="<?php echo get_template_directory_uri(); ?>/video/540x310_video-01.mp4">
                   <!-- <source type="video/webm" src="video/540x310_video-01.ogv">
                   <source type="video/ogv" src="video/540x310_video-01.ogv"> -->
                 </video>
@@ -619,7 +569,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                         </a>
                       </div>
                       <div class="mxd-stats-cards__image mxd-stats-cards-image-1">
-                        <img src="img/illustrations/800x800_card-image-01.webp" alt="Illustration">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/illustrations/800x800_card-image-01.webp" alt="Illustration">
                       </div>
                     </div>
                   </div>
@@ -629,7 +579,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       <div class="mxd-stats-cards__btngroup">
                         <div class="mxd-avatars">
                           <div class="mxd-avatars__item">
-                            <img src="img/avatars/300x300_ava-02.webp" alt="Avatar">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/avatars/300x300_ava-02.webp" alt="Avatar">
                           </div>
                           <div class="mxd-avatars__item bg-base-opp">
                             <svg class="mxd-avatars__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -649,7 +599,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                             </svg>
                           </div>
                           <div class="mxd-avatars__item">
-                            <img src="img/avatars/300x300_ava-01.webp" alt="Avatar">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/avatars/300x300_ava-01.webp" alt="Avatar">
                           </div>
                         </div>
                       </div>
@@ -658,7 +608,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                         <p class="mxd-counter__descr t-140 t-bright">Clients come back for<br>a new projects</p>
                       </div>
                       <div class="mxd-stats-cards__image mxd-stats-cards-image-2">
-                        <img src="img/illustrations/Frame 5.png" alt="Illustration">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/illustrations/Frame 5.png" alt="Illustration">
                       </div>
                     </div>
                   </div>
@@ -676,7 +626,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                         </a>
                       </div>
                       <div class="mxd-stats-cards__image mxd-stats-cards-image-3">
-                        <img src="img/illustrations/Frame 8.png" alt="Illustration">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/illustrations/Frame 8.png" alt="Illustration">
                       </div>
                     </div>
                   </div> 
@@ -694,7 +644,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                         </a>
                       </div>
                       <div class="mxd-stats-cards__image mxd-stats-cards-image-4">
-                        <img src="img/illustrations/Frame 7.png" alt="Illustration">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/illustrations/Frame 7.png" alt="Illustration">
                       </div>
                     </div>
                   </div>
@@ -976,7 +926,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="services-stack__image">
                         <img class="service-img service-img-s" src="https://dummyimage.com/800x800/5d5d5d/737373" alt="Service/Feature Image">
-                        <img class="service-img service-img-m" src="img/services/Frame 3.png" alt="Service/Feature Image">
+                        <img class="service-img service-img-m" src="<?php echo get_template_directory_uri(); ?>/img/services/Frame 3.png" alt="Service/Feature Image">
                       </div>
                     </div>
                   </div>
@@ -1004,7 +954,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="services-stack__image">
                         <img class="service-img service-img-s" src="https://dummyimage.com/800x800/5d5d5d/737373" alt="Service/Feature Image">
-                        <img class="service-img service-img-m" src="img/illustrations/UX & Product Design.png" alt="Service/Feature Image">
+                        <img class="service-img service-img-m" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/UX & Product Design.png" alt="Service/Feature Image">
                       </div>
                     </div>
                   </div>
@@ -1030,7 +980,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="services-stack__image">
                         <img class="service-img service-img-s" src="https://dummyimage.com/800x800/5d5d5d/737373" alt="Service/Feature Image">
-                        <img class="service-img service-img-m" src="img/illustrations/Web Development.png" alt="Service/Feature Image">
+                        <img class="service-img service-img-m" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/Web Development.png" alt="Service/Feature Image">
                       </div>
                     </div>
                   </div>
@@ -1058,7 +1008,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="services-stack__image">
                         <img class="service-img service-img-s" src="https://dummyimage.com/800x800/5d5d5d/737373" alt="Service/Feature Image">
-                        <img class="service-img service-img-m" src="img/illustrations/Digital Marketing.png" alt="Service/Feature Image">
+                        <img class="service-img service-img-m" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/Digital Marketing.png" alt="Service/Feature Image">
                       </div>
                     </div>
                   </div>
@@ -1086,7 +1036,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="services-stack__image">
                         <img class="service-img service-img-s" src="https://dummyimage.com/800x800/5d5d5d/737373" alt="Service/Feature Image">
-                        <img class="service-img service-img-m" src="img/illustrations/Architecture Design.png" alt="Service/Feature Image">
+                        <img class="service-img service-img-m" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/Architecture Design.png" alt="Service/Feature Image">
                       </div>
                     </div>
                   </div>
@@ -1113,7 +1063,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="services-stack__image">
                         <img class="service-img service-img-s" src="https://dummyimage.com/800x800/5d5d5d/737373" alt="Service/Feature Image">
-                        <img class="service-img service-img-m" src="img/illustrations/AI Video Creation and Edit.png" alt="Service/Feature Image">
+                        <img class="service-img service-img-m" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/AI Video Creation and Edit.png" alt="Service/Feature Image">
                       </div>
                     </div>
                   </div>
@@ -1173,7 +1123,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                     <div class="row gx-0">
                       <div class="col-12 col-xl-2 mxd-grid-item no-margin">
                         <div class="mxd-approach-list__image anim-uni-in-up">
-                          <img src="img/icons/h70_appr-01.webp" alt="Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/h70_appr-01.webp" alt="Icon">
                         </div>
                       </div>
                       <div class="col-12 col-xl-4 mxd-grid-item no-margin">
@@ -1200,7 +1150,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                     <div class="row gx-0">
                       <div class="col-12 col-xl-2 mxd-grid-item no-margin">
                         <div class="mxd-approach-list__image anim-uni-in-up">
-                          <img src="img/icons/h70_appr-02.webp" alt="Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/h70_appr-02.webp" alt="Icon">
                         </div>
                       </div>
                       <div class="col-12 col-xl-4 mxd-grid-item no-margin">
@@ -1227,7 +1177,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                     <div class="row gx-0">
                       <div class="col-12 col-xl-2 mxd-grid-item no-margin">
                         <div class="mxd-approach-list__image anim-uni-in-up">
-                          <img src="img/icons/h70_appr-03.webp" alt="Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/h70_appr-03.webp" alt="Icon">
                         </div>
                       </div>
                       <div class="col-12 col-xl-4 mxd-grid-item no-margin">
@@ -1254,7 +1204,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                     <div class="row gx-0">
                       <div class="col-12 col-xl-2 mxd-grid-item no-margin">
                         <div class="mxd-approach-list__image anim-uni-in-up">
-                          <img src="img/icons/h70_appr-04.webp" alt="Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/h70_appr-04.webp" alt="Icon">
                         </div>
                       </div>
                       <div class="col-12 col-xl-4 mxd-grid-item no-margin">
@@ -1281,7 +1231,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                     <div class="row gx-0">
                       <div class="col-12 col-xl-2 mxd-grid-item no-margin">
                         <div class="mxd-approach-list__image anim-uni-in-up">
-                          <img src="img/icons/h70_appr-05.webp" alt="Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/h70_appr-05.webp" alt="Icon">
                         </div>
                       </div>
                       <div class="col-12 col-xl-4 mxd-grid-item no-margin">
@@ -1319,25 +1269,25 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                 <!-- item -->
                 <div class="marquee__item image">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/1.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/1.jpg" alt="Image">
                   </a>
                 </div>
                 <!-- item -->
                 <div class="marquee__item">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/2.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/2.jpg" alt="Image">
                   </a>
                 </div>
                 <!-- item -->
                 <div class="marquee__item">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/3.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/3.jpg" alt="Image">
                   </a>
                 </div>
                 <!-- item -->
                 <div class="marquee__item">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/4.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/4.jpg" alt="Image">
                   </a>
                 </div>
               </div>
@@ -1346,25 +1296,25 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                 <!-- item -->
                 <div class="marquee__item">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/5.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/5.jpg" alt="Image">
                   </a>
                 </div>
                 <!-- item -->
                 <div class="marquee__item">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/3.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/3.jpg" alt="Image">
                   </a>
                 </div>
                 <!-- item -->
                 <div class="marquee__item">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/1.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/1.jpg" alt="Image">
                   </a>
                 </div>
                 <!-- item -->
                 <div class="marquee__item">
                   <a class="marquee__link" href="project-details.html">
-                    <img src="img/marquee/4.jpg" alt="Image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/marquee/4.jpg" alt="Image">
                   </a>
                 </div>
               </div>
@@ -1412,7 +1362,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
               <a class="mxd-awards-list__item hover-reveal__item" href="https://medium.com/" target="_blank">
                 <div class="mxd-awards-list__border anim-uni-in-up"></div>
                 <div class="hover-reveal__content overflow-visible hover-reveal-260x260">
-                  <img class="hover-reveal__image" src="img/illustrations/imgi_32_600x600_prv-01.webp" alt="Project Preview">
+                  <img class="hover-reveal__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/imgi_32_600x600_prv-01.webp" alt="Project Preview">
                 </div>
                 <div class="mxd-awards-list__inner">
                   <div class="container-fluid px-0">
@@ -1452,7 +1402,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
               <a class="mxd-awards-list__item hover-reveal__item" href="https://www.awwwards.com/" target="_blank">
                 <div class="mxd-awards-list__border anim-uni-in-up"></div>
                 <div class="hover-reveal__content overflow-visible hover-reveal-260x260">
-                  <img class="hover-reveal__image" src="img/illustrations/imgi_33_600x600_prv-02.webp" alt="Project Preview">
+                  <img class="hover-reveal__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/imgi_33_600x600_prv-02.webp" alt="Project Preview">
                 </div>
                 <div class="mxd-awards-list__inner">
                   <div class="container-fluid px-0">
@@ -1492,7 +1442,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
               <a class="mxd-awards-list__item hover-reveal__item" href="https://www.behance.net/" target="_blank">
                 <div class="mxd-awards-list__border anim-uni-in-up"></div>
                 <div class="hover-reveal__content overflow-visible hover-reveal-260x260">
-                  <img class="hover-reveal__image" src="img/illustrations/imgi_34_600x600_prv-03.webp" alt="Project Preview">
+                  <img class="hover-reveal__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/imgi_34_600x600_prv-03.webp" alt="Project Preview">
                 </div>
                 <div class="mxd-awards-list__inner">
                   <div class="container-fluid px-0">
@@ -1531,7 +1481,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
               <a class="mxd-awards-list__item hover-reveal__item" href="https://medium.com/" target="_blank">
                 <div class="mxd-awards-list__border anim-uni-in-up"></div>
                 <div class="hover-reveal__content overflow-visible hover-reveal-260x260">
-                  <img class="hover-reveal__image" src="img/illustrations/imgi_35_600x600_prv-04.webp" alt="Project Preview">
+                  <img class="hover-reveal__image" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/imgi_35_600x600_prv-04.webp" alt="Project Preview">
                 </div>
                 <div class="mxd-awards-list__inner">
                   <div class="container-fluid px-0">
@@ -1644,10 +1594,10 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                             <div class="mxd-testimonials-card__content">
                               <div class="mxd-testimonials-card__media anim-uni-in-up">
                                 <div class="mxd-testimonials-card__photo">
-                                  <img src="img/avatars/300x300_ava-01.webp" alt="Author Photo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/avatars/300x300_ava-01.webp" alt="Author Photo">
                                 </div>
                                 <div class="mxd-testimonials-card__company">
-                                  <img src="img/brands/envato.svg" alt="Company Logo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/brands/envato.svg" alt="Company Logo">
                                 </div>
                               </div>
                               <div class="mxd-testimonials-card__text">
@@ -1673,10 +1623,10 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                             <div class="mxd-testimonials-card__content">
                               <div class="mxd-testimonials-card__media anim-uni-in-up">
                                 <div class="mxd-testimonials-card__photo">
-                                  <img src="img/avatars/300x300_ava-02.webp" alt="Author Photo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/avatars/300x300_ava-02.webp" alt="Author Photo">
                                 </div>
                                 <div class="mxd-testimonials-card__company">
-                                  <img src="img/brands/envato.svg" alt="Company Logo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/brands/envato.svg" alt="Company Logo">
                                 </div>
                               </div>
                               <div class="mxd-testimonials-card__text">
@@ -1703,10 +1653,10 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                             <div class="mxd-testimonials-card__content">
                               <div class="mxd-testimonials-card__media anim-uni-in-up">
                                 <div class="mxd-testimonials-card__photo">
-                                  <img src="img/avatars/300x300_ava-03.webp" alt="Author Photo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/avatars/300x300_ava-03.webp" alt="Author Photo">
                                 </div>
                                 <div class="mxd-testimonials-card__company">
-                                  <img src="img/brands/envato.svg" alt="Company Logo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/brands/envato.svg" alt="Company Logo">
                                 </div>
                               </div>
                               <div class="mxd-testimonials-card__text">
@@ -1732,10 +1682,10 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                             <div class="mxd-testimonials-card__content">
                               <div class="mxd-testimonials-card__media anim-uni-in-up">
                                 <div class="mxd-testimonials-card__photo">
-                                  <img src="img/avatars/300x300_ava-05.webp" alt="Author Photo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/avatars/300x300_ava-05.webp" alt="Author Photo">
                                 </div>
                                 <div class="mxd-testimonials-card__company">
-                                  <img src="img/brands/envato.svg" alt="Company Logo">
+                                  <img src="<?php echo get_template_directory_uri(); ?>/img/brands/envato.svg" alt="Company Logo">
                                 </div>
                               </div>
                               <div class="mxd-testimonials-card__text">
@@ -1877,7 +1827,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/1.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/1.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1885,7 +1835,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/2.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/2.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1893,7 +1843,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/3.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/3.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1901,7 +1851,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/4.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/4.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1909,7 +1859,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/5.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/5.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1917,7 +1867,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/6.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/6.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1925,7 +1875,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/7.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/7.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1933,7 +1883,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                   <div class="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
                     <a class="mxd-partners-cards__inner" href="#0">
                       <div class="mxd-partners-cards__logo">
-                        <img src="img/brands/8.png" alt="Partner Logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/brands/8.png" alt="Partner Logo">
                       </div>
                     </a>
                   </div>
@@ -1994,7 +1944,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="mxd-preview-hover">
                         <i class="mxd-preview-hover__icon">
-                          <img src="img/icons/icon-eye.svg" alt="Eye Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-eye.svg" alt="Eye Icon">
                         </i>
                       </div>
                       <div class="mxd-blog-preview__tags">
@@ -2014,7 +1964,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="mxd-preview-hover">
                         <i class="mxd-preview-hover__icon">
-                          <img src="img/icons/icon-eye.svg" alt="Eye Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-eye.svg" alt="Eye Icon">
                         </i>
                       </div>
                       <div class="mxd-blog-preview__tags">
@@ -2034,7 +1984,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                       </div>
                       <div class="mxd-preview-hover">
                         <i class="mxd-preview-hover__icon">
-                          <img src="img/icons/icon-eye.svg" alt="Eye Icon">
+                          <img src="<?php echo get_template_directory_uri(); ?>/img/icons/icon-eye.svg" alt="Eye Icon">
                         </i>
                       </div>
                       <div class="mxd-blog-preview__tags">
@@ -2070,7 +2020,7 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                 <div class="mxd-promo__content">
                   <p class="mxd-promo__title anim-uni-in-up">
                     <span class="mxd-promo__icon">
-                      <img src="img/illustrations/300x300_obj-cta-01.webp" alt="Icon">
+                      <img src="<?php echo get_template_directory_uri(); ?>/img/illustrations/300x300_obj-cta-01.webp" alt="Icon">
                     </span>
                     <span class="mxd-promo__caption reveal-type">Let's talk about your project!</span>
                   </p>
@@ -2083,8 +2033,8 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
                 </div>
                 <!-- parallax images -->
                 <div class="mxd-promo__images">
-                  <img class="promo-image promo-image-1" src="img/illustrations/cta-img-01.webp" alt="Image">
-                  <img class="promo-image promo-image-2" src="img/illustrations/cta-img-02.webp" alt="Image">
+                  <img class="promo-image promo-image-1" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/cta-img-01.webp" alt="Image">
+                  <img class="promo-image promo-image-2" src="<?php echo get_template_directory_uri(); ?>/img/illustrations/cta-img-02.webp" alt="Image">
                 </div>
               </div>
             </div>
@@ -2270,27 +2220,4 @@ Behind every successful brand lies creativity, precision, and a seamless user ex
     </footer>
     <!-- Footer End -->
 
-    <!-- To Top Button Start -->
-    <a href="#0" id="to-top" class="btn btn-to-top slide-up anim-no-delay">
-      <i class="ph ph-arrow-up"></i>
-    </a>
-    <!-- To Top Button End -->
-
-    <!-- Load Scripts Start -->
-    <script src="js/libs.min.js"></script>
-    <script src="js/app.js"></script>
-    <!-- counters -->
-    <script>
-      const statsCounter1 = new countUp.CountUp("stats-counter-1", 495, optionsPlus);
-      const statsCounter2 = new countUp.CountUp("stats-counter-2", 80, optionsPercent);
-      const statsCounter3 = new countUp.CountUp("stats-counter-3", 10, optionsPlus);
-      const statsCounter4 = new countUp.CountUp("stats-counter-4", 500, optionsPlus);
-      statsCounter1.start();
-      statsCounter2.start();
-      statsCounter3.start();
-      statsCounter4.start();
-    </script>
-    
-  </body>
-
-</html>
+<?php get_footer(); ?>
