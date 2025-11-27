@@ -58,3 +58,41 @@ function mytheme_setup() {
 }
 add_action('after_setup_theme', 'mytheme_setup');
 
+
+// -----------------------------
+// REGISTER CUSTOM POST TYPE: PROJECTS
+// -----------------------------
+function cpt_projects() {
+
+    $labels = array(
+        'name'               => 'Projects',
+        'singular_name'      => 'Project',
+        'menu_name'          => 'Projects',
+        'add_new'            => 'Add Project',
+        'add_new_item'       => 'Add New Project',
+        'edit_item'          => 'Edit Project',
+        'new_item'           => 'New Project',
+        'view_item'          => 'View Project',
+        'search_items'       => 'Search Projects',
+    );
+
+    $args = array(
+        'labels'        => $labels,
+        'public'        => true,
+        'menu_icon'     => 'dashicons-portfolio',
+        'supports'      => array('title', 'editor', 'thumbnail'),
+        'has_archive'   => true,
+        'rewrite'       => array('slug' => 'projects'),
+        'show_in_rest'  => true,
+    );
+
+    register_post_type('project', $args);
+}
+add_action('init', 'cpt_projects');
+
+// ADD CATEGORIES & TAGS TO PROJECTS
+function project_tax_support() {
+    register_taxonomy_for_object_type('category', 'project');
+    register_taxonomy_for_object_type('post_tag', 'project');
+}
+add_action('init', 'project_tax_support');

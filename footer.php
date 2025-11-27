@@ -1,3 +1,4 @@
+<?php include "inc/footer-content.php"; ?>
     <!-- To Top Button Start -->
     <a href="#0" id="to-top" class="btn btn-to-top slide-up anim-no-delay">
       <i class="ph ph-arrow-up"></i>
